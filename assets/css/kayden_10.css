@@ -5940,7 +5940,7 @@ Table of Content
   }
   
   .form-control:hover:not(:disabled):not([readonly])::file-selector-button {
-    background-color: #dde0e3;
+    background-color: #dde0e3;   
   }
   
   .form-control::-webkit-file-upload-button {
@@ -5970,7 +5970,7 @@ Table of Content
   }
   
   .form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
-    background-color: #dde0e3;
+    background-color: #dde0e3;  
   }
   
   .form-control-plaintext {
@@ -6566,12 +6566,14 @@ Table of Content
     background-repeat: no-repeat;
     background-position: right calc(0.375em + 0.1875rem) center;
     background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+    
   }
   
   .was-validated .form-control:valid:focus, .form-control.is-valid:focus {
     border-color: #198754;
     -webkit-box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25);
             box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25);
+            
   }
   
   .was-validated textarea.form-control:valid, textarea.form-control.is-valid {
@@ -12188,7 +12190,8 @@ Table of Content
   }
   
   .form-control:focus {
-    color: var(--kayden-input-focus-color);
+    
+    color: var(--kayden-input-background);
     background-color: var(--kayden-input-focus-background);
     border-color: var(--kayden-input-focus-border);
     -webkit-box-shadow: 0 0 0 0.25rem var(--kayden-input-focus-shadow);
