@@ -30,8 +30,8 @@ $(function () {
     var that = this;
   
     var form = $("#contact-form"),
-        successMessage = "Message Send",
-        warningMessage = "Something wrong! Please try later";
+        successMessage = "Mensaje Enviado",
+        warningMessage = "¡Algo paso! Por favor, inténtalo más tarde.";
   
     form.on("submit", function (event) {
       /*Change URL address if you need*/
