@@ -8,7 +8,7 @@
     <!--Usefull Meta-->
     <meta
       name="description"
-      content="A slick, customizable CV, Resume or Portfolio template, perfect for photographers, freelancers or designers."
+      content="Customizable CV, freelancers or designers."
     />
     <meta
       name="keywords"
@@ -20,15 +20,7 @@
     <meta property="og:title" content="Portafolio | RodNal" />
     <meta
       property="og:description"
-      content="A slick, customizable CV, Resume or Portfolio template, perfect for photographers, freelancers or designers."
-    />
-    <meta
-      property="og:image"
-      content="https://demo.themesuccess.com/templates/kayden/assets/images/preview.jpg"
-    />
-    <meta
-      property="og:url"
-      content="https://demo.themesuccess.com/templates/kayden/"
+      content="Customizable CV, freelancers or designers."
     />
     <!--Favicon-->
     <!-- <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" /> -->
@@ -1718,11 +1710,9 @@
 
     <!--JavaScript START-->
     <!--Popper-->
-    <script
-      data-cfasync="false"
-      src="https://demo.themesuccess.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    <script src="assets/js/email-decode.min.js"
     ></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
     <!--Bootstrap-->
     <script src="assets/js/bootstrap.min.js"></script>
     <!--JQuery-->
