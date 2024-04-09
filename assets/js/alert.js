@@ -9,7 +9,7 @@
 */
 
 var alertTimeout,
-    delay = 5000;
+    delay = 2000;
 
 function remove_alert()
 {

@@ -1,0 +1,9 @@
+/* Estilos para el efecto de aumento (zoom) al pasar el cursor */
+#copyButton i {
+  transition: transform 0.3s ease-in-out; /* Añadir un retraso de 0.3 segundos */
+}
+
+/* Estilos para el efecto de aumento (zoom) al pasar el cursor */
+#copyButton:hover i {
+  transform: scale(1.3);
+}

@@ -58,7 +58,7 @@
     <!--Keyden Styelsheet with Bootstrap 5-->
     <link rel="stylesheet" href="assets/css/kayden_10.css" />
     <!-- https://fontawesome.com/v4/icons/ -->
-
+    <link rel="stylesheet" href="assets/css/global.css" />
     <style>
       .custom-link {
         display: inline-block;
@@ -114,7 +114,7 @@
           <!--Header Logo END-->
           <!--Header Info START-->
           <div class="kayden-nav-meta fs-5 fw-bold d-none d-sm-block text-end">
-            <a href="#" class="text-reset">
+            <a href="#" class="text-reset" id="copyButton">
               <i
                 class="fa fa-share-alt fa-lg"
                 aria-hidden="true"
@@ -1746,5 +1746,6 @@
     <!--JavaScript END-->
 
     <script src="assets/js/switcher.js"></script>
+    <script src="assets/js/global.js"></script>
   </body>
 </html>
